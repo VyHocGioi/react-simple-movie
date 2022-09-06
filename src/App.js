@@ -30,7 +30,7 @@ function App() {
                 </Fragment>
               }
             ></Route>
-            <Route path="/movie" element={<MoviePageV2></MoviePageV2>}></Route>
+            <Route path="/movie" element={<MoviePage></MoviePage>}></Route>
             <Route
               path="/movie/:movieId"
               element={<MovieDetail></MovieDetail>}
